@@ -47,7 +47,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(98, 82);
+            this.panel1.Size = new System.Drawing.Size(98, 81);
             this.panel1.TabIndex = 0;
             // 
             // art
@@ -56,7 +56,7 @@
             this.art.Image = ((System.Drawing.Image)(resources.GetObject("art.Image")));
             this.art.Location = new System.Drawing.Point(0, 0);
             this.art.Name = "art";
-            this.art.Size = new System.Drawing.Size(98, 82);
+            this.art.Size = new System.Drawing.Size(98, 81);
             this.art.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.art.TabIndex = 0;
             this.art.TabStop = false;
@@ -136,7 +136,7 @@
             this.Controls.Add(this.songName);
             this.Controls.Add(this.panel1);
             this.Name = "ListControlItem";
-            this.Size = new System.Drawing.Size(537, 82);
+            this.Size = new System.Drawing.Size(535, 81);
             this.Load += new System.EventHandler(this.ListControlItem_Load);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.art)).EndInit();
