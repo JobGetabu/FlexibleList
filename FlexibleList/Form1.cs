@@ -16,5 +16,15 @@ namespace FlexibleList
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void BtnAdd_Click(object sender, EventArgs e)
+        {
+            listControl1.Add("RADIO ACTIVE", "Smoke and Mirrors", "Imagine Dragons", new TimeSpan(0, 4, 16), 9);
+        }
     }
 }
